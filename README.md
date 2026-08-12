@@ -15,6 +15,7 @@ A robust REST API built with Node.js, Express, and Sequelize ORM (MySQL) for man
 ---
 
 ## Project Structure
+```text
 email-campaign-management/
 ├── src/
 │   ├── config/          # Database configuration and connection
@@ -28,7 +29,6 @@ email-campaign-management/
 ├── .env.example         # Sample environment variables file
 ├── postman_collection.json # Postman collection for API testing
 └── package.json
-
 ---
 
 ## Setup & Installation Instructions
