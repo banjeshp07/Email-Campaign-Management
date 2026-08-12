@@ -29,41 +29,46 @@ email-campaign-management/
 ├── .env.example         # Sample environment variables file
 ├── postman_collection.json # Postman collection for API testing
 └── package.json
-
+```
 ## Setup & Installation Instructions
 
 1. Clone the repository:
+```
    git clone https://github.com/banjeshp07/Email-Campaign-Management
    cd email-campaign-management
 
+   ```
+
 2. Install dependencies:
+```
    npm install
 
 ```
 
 3. Configure Environment Variables:
    Create a .env file in the root directory and update it with your configuration (use .env.example as a reference):
-   
+   ```
    PORT=3000
    DB_HOST=localhost
    DB_USER=root
    DB_PASSWORD=your_mysql_password
    DB_NAME=email_campaigns
    JWT_SECRET=your_jwt_secret_key
-
+```
 4. Initialize Database & Start Application:
    * The application uses Sequelize sync, so running npm start will automatically create the required tables (users, campaigns, recipients).
    * Alternatively, you can run the SQL script provided in schema.sql inside your MySQL Workbench.
-   
+   ```
    npm start
-
+```
 ---
 
 ## Running Automated Tests
 
 To run the automated Jest test suite and verify core business logic:
+```
 npm test
-
+```
 ---
 
 ## Authentication Instructions
