@@ -29,7 +29,6 @@ email-campaign-management/
 ├── .env.example         # Sample environment variables file
 ├── postman_collection.json # Postman collection for API testing
 └── package.json
----
 
 ## Setup & Installation Instructions
 
