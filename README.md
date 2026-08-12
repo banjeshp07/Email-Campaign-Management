@@ -59,7 +59,7 @@ email-campaign-management/
    * The application uses Sequelize sync, so running npm start will automatically create the required tables (users, campaigns, recipients).
    * Alternatively, you can run the SQL script provided in schema.sql inside your MySQL Workbench.
 
-   ```
+
    npm start
    ```
 ---
