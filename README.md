@@ -39,6 +39,8 @@ email-campaign-management/
 2. Install dependencies:
    npm install
 
+```
+
 3. Configure Environment Variables:
    Create a .env file in the root directory and update it with your configuration (use .env.example as a reference):
    
